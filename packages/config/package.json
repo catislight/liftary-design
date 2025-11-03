@@ -1,0 +1,13 @@
+{
+  "name": "@liftary-design/config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build:types": "tsc -p tsconfig.build.json"
+  },
+  "author": "catislight <58447768@qq.com>",
+  "license": "MIT",
+  "packageManager": "pnpm@10.20.0"
+}

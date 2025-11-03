@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.build.json",
+  "files": [],
+  "references": [
+    { "path": "./packages/components/atom" },
+    { "path": "./packages/components/structure" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/style" },
+    { "path": "./packages/config" },
+    { "path": "./doc" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@liftary-design/*": ["packages/*/src"]
+    }
+  }
+}

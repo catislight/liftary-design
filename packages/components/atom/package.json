@@ -1,0 +1,22 @@
+{
+  "name": "@liftary-design/atom",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "catalog:react19",
+    "react-dom": "catalog:react19"
+  },
+  "devDependencies": {
+    "@types/react": "catalog:react19",
+    "@types/react-dom": "catalog:react19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "catislight <58447768@qq.com>",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0"
+}

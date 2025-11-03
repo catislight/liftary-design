@@ -1,0 +1,27 @@
+{
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "../packages/components/structure/src/**/*.ts",
+    "../packages/components/structure/src/**/*.tsx",
+    "../packages/components/atom/src/**/*.ts",
+    "../packages/components/atom/src/**/*.tsx"
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ESNext", "DOM"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "target": "ESNext",
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "types": ["vite/client"],
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@liftary-design/*": ["../packages/components/*/src"],
+    },
+    "customConditions": ["dev"]
+  }
+}

@@ -1,0 +1,12 @@
+.idea
+node_modules
+.pnpm-debug.log*
+.DS_Store
+dist
+coverage
+*.log
+*.local
+.eslintcache
+tmp
+*.note.md
+todo.md
