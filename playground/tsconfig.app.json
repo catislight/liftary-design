@@ -1,12 +1,5 @@
 {
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "../packages/components/structure/src/**/*.ts",
-    "../packages/components/structure/src/**/*.tsx",
-    "../packages/components/atom/src/**/*.ts",
-    "../packages/components/atom/src/**/*.tsx"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "../packages/components/src/"],
   "compilerOptions": {
     "composite": true,
     "lib": ["ESNext", "DOM"],
@@ -20,7 +13,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@liftary-design/*": ["../packages/components/*/src"],
+      "@liftary-design/components": ["../packages/components/src"]
     },
     "customConditions": ["dev"]
   }

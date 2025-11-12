@@ -10,3 +10,5 @@ coverage
 tmp
 *.note.md
 todo.md
+*storybook.log
+storybook-static

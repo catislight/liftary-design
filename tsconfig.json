@@ -2,8 +2,7 @@
   "extends": "./tsconfig.build.json",
   "files": [],
   "references": [
-    { "path": "./packages/components/atom" },
-    { "path": "./packages/components/structure" },
+    { "path": "./packages/components" },
     { "path": "./packages/shared" },
     { "path": "./packages/style" },
     { "path": "./packages/config" },

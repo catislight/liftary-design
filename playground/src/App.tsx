@@ -1,4 +1,4 @@
-import { Container } from '@liftary-design/structure';
+import { Container } from '@liftary-design/components';
 
 export default function App() {
   return (

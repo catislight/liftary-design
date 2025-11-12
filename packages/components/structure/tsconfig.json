@@ -1,9 +1,0 @@
-{
-  "extends": "../../../tsconfig.json",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "compilerOptions": {
-    "customConditions": ["dev"],
-    "composite": true,
-    "jsx": "react-jsx"
-  }
-}
