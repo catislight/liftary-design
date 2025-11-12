@@ -1,10 +1,10 @@
-import React from 'react';
+import React from 'react'
 
 type ContainerProps = {
-  children?: React.ReactNode;
-  className?: string;
-  style?: React.CSSProperties;
-};
+  children?: React.ReactNode
+  className?: string
+  style?: React.CSSProperties
+}
 
 export function Container({ children, className, style }: ContainerProps) {
   const baseStyle: React.CSSProperties = {
@@ -13,11 +13,11 @@ export function Container({ children, className, style }: ContainerProps) {
     padding: 24,
     boxSizing: 'border-box',
     backgroundColor: '#f5f5f5',
-  };
+  }
 
   return (
     <div className={className} style={{ ...baseStyle, ...style }}>
       {children}
     </div>
-  );
+  )
 }

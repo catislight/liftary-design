@@ -8,6 +8,9 @@
     "react": "catalog:react19",
     "react-dom": "catalog:react19"
   },
+  "dependencies": {
+    "@liftary-design/style": "workspace:*"
+  },
   "devDependencies": {
     "@types/react": "catalog:react19",
     "@types/react-dom": "catalog:react19"

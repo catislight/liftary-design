@@ -1,5 +1,5 @@
-import type { Meta, StoryObj } from '@storybook/react-vite';
-import { Container } from '../structure/Container';
+import type { Meta, StoryObj } from '@storybook/react-vite'
+import { Container } from '../structure/Container'
 
 const meta: Meta<typeof Container> = {
   title: 'Structure/Container',
@@ -22,16 +22,16 @@ const meta: Meta<typeof Container> = {
       description: '内联样式对象',
     },
   },
-};
+}
 
-export default meta;
-type Story = StoryObj<typeof meta>;
+export default meta
+type Story = StoryObj<typeof meta>
 
 export const Default: Story = {
   args: {
     children: '这是一个默认的 Container 组件示例',
   },
-};
+}
 
 export const WithCustomContent: Story = {
   args: {
@@ -43,7 +43,7 @@ export const WithCustomContent: Story = {
       </div>
     ),
   },
-};
+}
 
 export const WithCustomStyle: Story = {
   args: {
@@ -54,11 +54,11 @@ export const WithCustomStyle: Story = {
       borderRadius: '8px',
     },
   },
-};
+}
 
 export const WithClassName: Story = {
   args: {
     children: '带有自定义类名的 Container',
     className: 'custom-container',
   },
-};
+}

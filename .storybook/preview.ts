@@ -1,4 +1,4 @@
-import type { Preview } from '@storybook/react-vite';
+import type { Preview } from '@storybook/react-vite'
 
 const preview: Preview = {
   parameters: {
@@ -19,6 +19,6 @@ const preview: Preview = {
       test: 'todo', // 设置为 'todo' 以在界面中显示违规，但不阻止构建
     },
   },
-};
+}
 
-export default preview;
+export default preview
